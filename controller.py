@@ -21,11 +21,11 @@ class Controller():
         driver = webdriver.Chrome(chrome_options=options, executable_path=r'./driver/chromedriver.exe')
         
         # video data
-        video_url = video_data['url']
+        video_url = video_data['url https://www.youtube.com/watch?v=aG572IKwl20&t=50s']
         views = video_data['views']
         
         # watching loop
-        for view in range(0, views):
+        for view in range(200000, views):
             # load video url in chrome driver
             driver.get(video_url)
 
